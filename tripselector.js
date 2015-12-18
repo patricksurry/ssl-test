@@ -18,6 +18,7 @@ function insertCalendarWidget(selector, host, options) {
 
     $.ajax({
         url: host + '/flightfeed?' + $.param(options),
+        dataType: "json",
         success: function(d) {
             var trips = d.trips;
             trips.forEach(function(t) {
