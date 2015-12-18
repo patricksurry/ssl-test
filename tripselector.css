@@ -1,0 +1,125 @@
+
+.trip-selector-dates-column {
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+}
+.trip-selector-choose-button {
+  text-align: center;
+  border-radius: 0;
+  background-color: #0098F4;
+}
+.trip-selector-choose-button a {
+  display: block;
+  padding: 10px 15px;
+  color: white;
+}
+
+.trip-selector {
+  background-color: #f7f7f7;
+}
+
+.trip-selector a, .trip-selector a:hover, .trip-selector a:focus {
+    text-decoration: none;
+}
+
+.trip-selector-container {
+  margin: 0 10px;
+  padding-bottom: 5px;
+}
+.panel.trip-selector {
+  padding-bottom: 0;
+  width: 100%;
+}
+.trip-selector-airlines {
+  color: #555;
+}
+.trip-selector-datetext {
+  color: #999;
+}
+.trip-selector-info {
+    color: #82898D;
+    text-align: center;
+    padding: 10px 0;
+}
+.trip-selector-dates {
+  background-color: #f7f7f7;
+  padding: 10px;
+  margin: 0;
+}
+.trip-selector-choose-button {
+  display: none;
+}
+.trip-selector-dates div.text-center {
+  padding: 10px 0;
+}
+.trip-selector-dates div.text-center:first-child {
+  border-right: 1px solid #dfdfdf;
+}
+.trip-selector-dates div {
+  background-color: white;
+}
+.trip-selector-dates-label {
+  font-size: 85%;
+}
+.trip-selector-departure-date, .trip-selector-return-date {
+  color: #333;
+}
+.trip-selector-departure-date.trip-selector-active, .trip-selector-return-date.trip-selector-active {
+  color: #2196F3;
+}
+.trip-selector-body {
+  height: 15.5em;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.trip-selector-mmm-name {
+  margin-top: 0.1em;
+  margin-bottom: -1em;
+}
+
+.trip-selector-day-number {
+  margin-top: 0.7em;
+}
+
+.trip-selector-column {
+  text-transform: uppercase;
+  display: inline-block;
+  width: 14.28%;
+  vertical-align: top;
+  text-align: center;
+}
+.trip-selector-header .trip-selector-column {
+  height: 2.5em;
+  margin-top: 10px;
+}
+.trip-selector-body .trip-selector-column {
+  background-color: #dfdfdf;
+  border: 1px solid #f7f7f7;
+  height: 3em;
+  color: #ccc;
+}
+.trip-selector-body .trip-selector-column.trip-month-border-top {
+  border-top-color: #ccc;
+}
+.trip-selector-body .trip-selector-column.trip-month-border-left {
+  border-left-color: #ccc;
+}
+.trip-selector-body .trip-selector-column.trip-month-border-bottom {
+  border-bottom-color: #ccc;
+}
+.trip-selector-body .trip-selector-column.trip-month-border-right {
+  border-right-color: #ccc;
+}
+.trip-selector-column.trip-selector-active {
+  color: #888;
+  background-color: #f7f7f7;
+}
+.trip-selector-column.trip-selector-departure, .trip-selector-column.trip-selector-return,
+.trip-selector-column.trip-selector-away {
+  color: white;
+  background-color: #2196F3;
+}

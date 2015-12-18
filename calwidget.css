@@ -1,0 +1,34 @@
+::-webkit-scrollbar {
+  display: none;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  font-size: 13px;  /* for large screens like iphone 6+: 13/10 ~ 414/320; */
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+@media (max-width: 400px) {
+  html { font-size: 12px; }  /* for iphone 6:  12/10 ~ 375/320*/
+}
+@media (max-width: 360px) {
+  html { font-size: 10px; } /* for iphone 5 */
+}
+body, html {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    color: #888;
+    background-color: white;
+    margin: 0;
+    /* make safari fonts look normal */
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+body {
+    font-size: 1.4rem;
+}
+:focus {
+  outline: none;
+}
+
