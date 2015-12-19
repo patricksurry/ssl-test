@@ -49,6 +49,7 @@ function insertCalendarWidget(selector, host, options) {
 // https://docs.google.com/document/d/1T0tkp9Cz7EW6IOMSWSt_CRPQL-96vzz6cebV0540kEU/edit#heading=h.xl3hpxpxyba4
 function deepLink(origin, destination, departure_date, return_date, tab) {
     var ymdFormat = d3.time.format.utc('%Y-%m-%d'),
+        base = 'route';
         params = {
             originType: 'airport', //TODO
             originID: origin,
@@ -57,12 +58,13 @@ function deepLink(origin, destination, departure_date, return_date, tab) {
         };
 
     if (departure_date && return_date) {
+        base = 'trip';
         params['departureDate'] = ymdFormat(departure_date);
         params['returnDate'] = ymdFormat(return_date);
         params['tab'] = tab || "flights";
     }
 
-    return 'hopper-flights://trip?' + $.param(params);
+    return 'hopper-flights://' + base + '?' + $.param(params);
 }
 
 
