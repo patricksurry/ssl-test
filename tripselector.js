@@ -11,13 +11,23 @@ function insertCalendarWidget(selector, host, options) {
         </div><!--\
       --></div>\
       <div class="trip-selector-container"><img src="static/running_bunny.gif"/></div>\
-      <div class="trip-selector-choose-button panel-footer cta-footer">\
+      <div class="trip-selector-button trip-selector-choose-button cta-footer">\
         <a href="#">Choose These Dates</a>\
       </div>\
+      <div class="trip-selector-watch">\
+        <div class="trip-selector-watch-text">\
+            Don\'t see the dates you want?  Prices might drop, watch this trip for deals.\
+        </div>\
+        <div class="trip-selector-button trip-selector-watch-button cta-footer">\
+          <a href="#">Watch for Deals</a>\
+        </div>\
     </div>');
 
+    $(selector + ' .trip-selector-watch-button a')
+        .attr('href', deepLink(options.origin, options.destination));
+
     $.ajax({
-        url: host + '/flightfeed?' + $.param(options),
+        url: host + '/datesummary?' + $.param(options),
         dataType: "json",
         success: function(d) {
             var trips = d.trips;
@@ -34,18 +44,25 @@ function insertCalendarWidget(selector, host, options) {
     })
 }
 
-function deepLink(origin, destination, departure_date, return_date, tab) {
-    var ymdFormat = d3.time.format.utc('%Y-%m-%d');
 
-    return 'hopper-flights://trip?' + $.param({
-        originType: 'airport', //TODO
-        originID: origin,
-        destinationType: 'airport', //TODO
-        destinationID: destination,
-        departureDate: ymdFormat(departure_date),
-        returnDate: ymdFormat(return_date),
-        tab: tab || "flights"
-    })
+// Cupertino deep links doc
+// https://docs.google.com/document/d/1T0tkp9Cz7EW6IOMSWSt_CRPQL-96vzz6cebV0540kEU/edit#heading=h.xl3hpxpxyba4
+function deepLink(origin, destination, departure_date, return_date, tab) {
+    var ymdFormat = d3.time.format.utc('%Y-%m-%d'),
+        params = {
+            originType: 'airport', //TODO
+            originID: origin,
+            destinationType: 'airport', //TODO
+            destinationID: destination
+        };
+
+    if (departure_date && return_date) {
+        params['departureDate'] = ymdFormat(departure_date);
+        params['returnDate'] = ymdFormat(return_date);
+        params['tab'] = tab || "flights";
+    }
+
+    return 'hopper-flights://trip?' + $.param(params);
 }
 
 
@@ -212,7 +229,7 @@ function showTrips(d3parent, trips, urlFn) {
 
             daydivs.classed('trip-selector-return', false);  // clear any return selection
             daydivs.classed('trip-selector-away', false);
-            setConfirm(null);
+            setConfirm();
 
             addClickEvents(returnDates, null);
             addClickEvents(departureDates, toggleDeparture);
@@ -226,7 +243,7 @@ function showTrips(d3parent, trips, urlFn) {
             $('#reset-button').removeClass('disabled');
             d3parent.select('.trip-selector-departure-date')
                 .classed('trip-selector-active', false)
-                .text(humanFormat(day.datum()));
+                .text(humanFormat(departureDate));
             d3parent.select('.trip-selector-return-date')
                 .classed('trip-selector-active', true)
                 .text('Select Date');
@@ -235,11 +252,15 @@ function showTrips(d3parent, trips, urlFn) {
                 = departureDates.filter(function(d) { return d.getTime() != departureTimestamp; });
             addClickEvents(departureDatesExceptThisOne, null);
             addClickEvents(returnDates, toggleReturn);
+
+            setConfirm(departureDate);
         }
     }
 
     function toggleReturn(day) {
-        var selected = day.classed('trip-selector-return');
+        var selected = day.classed('trip-selector-return'),
+            returnDate = day.datum(),
+            departureDate = d3.select('.trip-selector-departure').datum();
         daydivs.classed('trip-selector-away', false);
         if (selected) {
             d3parent.select('.trip-selector-return-date')
@@ -249,21 +270,20 @@ function showTrips(d3parent, trips, urlFn) {
             $('.trip-selector-info').html(
                 numReturns + " return date" + (numReturns != 1 ? "s":"")
             );
-            setConfirm(null);
+            setConfirm(departureDate);
         } else {
             d3parent.select('.trip-selector-return-date')
                 .classed('trip-selector-active', false)
-                .text(humanFormat(day.datum()));
-            var departureDate = d3.select('.trip-selector-departure').datum(),
-                stay = d3.time.day.utc.range(departureDate, day.datum()).length,
+                .text(humanFormat(returnDate));
+            var stay = d3.time.day.utc.range(departureDate, returnDate).length,
                 departureTimestamp = departureDate.getTime(),
-                returnTimestamp = day.datum().getTime();
+                returnTimestamp = returnDate.getTime();
             daydivs.classed('trip-selector-return', false); // clear prior return selection
             daydivs.filter(function(d) {
                     return d.getTime() > departureTimestamp && d.getTime() < returnTimestamp;
                 })
                 .classed('trip-selector-away', true);
-            setConfirm(departureDate, day.datum());
+            setConfirm(departureDate, returnDate);
             $('.trip-selector-info').html(
                 "Stay " + stay + " day" + (stay != 1 ? "s" : "")
             );
@@ -272,9 +292,10 @@ function showTrips(d3parent, trips, urlFn) {
     }
 
     function setConfirm(dep, ret) {
-        var elt = d3.select('.trip-selector-choose-button');
-        if (dep) {
-            elt.style({'display': 'block'})
+        var elt = d3.select('.trip-selector-choose-button'),
+            watch = d3.select('.trip-selector-watch');
+        if (dep && ret) {
+            elt.style('display', 'block')
                 .select('a')
                 .attr('href', urlFn(dep, ret));
 
@@ -286,10 +307,15 @@ function showTrips(d3parent, trips, urlFn) {
         } else {
             elt.style('display', 'none');
         }
+        if (!dep && !ret) {
+            watch.style('display', 'block');
+        } else {
+            watch.style('display', 'none')
+        }
     }
 
     resetDateDisplay();
-    setConfirm(null);
+    setConfirm();
     daydivs.on('click', null)
         .classed('trip-selector-active', false)
         .classed('trip-selector-departure', false)

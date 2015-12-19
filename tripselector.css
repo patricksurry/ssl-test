@@ -4,12 +4,12 @@
     display: inline-block;
     text-align: center;
 }
-.trip-selector-choose-button {
+.trip-selector-button {
   text-align: center;
   border-radius: 0;
   background-color: #0098F4;
 }
-.trip-selector-choose-button a {
+.trip-selector-button a {
   display: block;
   padding: 10px 15px;
   color: white;
@@ -50,8 +50,9 @@
 .trip-selector-choose-button {
   display: none;
 }
-.trip-selector-dates div.text-center {
-  padding: 10px 0;
+.trip-selector-watch-text {
+  padding: 15px;
+  text-align: center;
 }
 .trip-selector-dates div.text-center:first-child {
   border-right: 1px solid #dfdfdf;

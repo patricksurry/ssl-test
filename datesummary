@@ -1,0 +1,1846 @@
+{
+  "destination": "CDG",
+  "origin": "BOS",
+  "trips": [
+    {
+      "best_price": 528.2999877929688,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-13",
+      "return_date": "2016-01-15"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-13",
+      "return_date": "2016-01-20"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-13",
+      "return_date": "2016-01-22"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-13",
+      "return_date": "2016-01-25"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-13",
+      "return_date": "2016-01-26"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-13",
+      "return_date": "2016-01-27"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-13",
+      "return_date": "2016-02-08"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-13",
+      "return_date": "2016-02-09"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-13",
+      "return_date": "2016-02-10"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-13",
+      "return_date": "2016-02-11"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-18",
+      "return_date": "2016-01-20"
+    },
+    {
+      "best_price": 521.222412109375,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-18",
+      "return_date": "2016-01-22"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-18",
+      "return_date": "2016-01-25"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-18",
+      "return_date": "2016-01-26"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-18",
+      "return_date": "2016-01-27"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-18",
+      "return_date": "2016-01-29"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-18",
+      "return_date": "2016-02-02"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-20",
+      "return_date": "2016-01-22"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-20",
+      "return_date": "2016-01-25"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-20",
+      "return_date": "2016-01-26"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-20",
+      "return_date": "2016-01-27"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-20",
+      "return_date": "2016-01-29"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-20",
+      "return_date": "2016-02-02"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-20",
+      "return_date": "2016-02-03"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-21",
+      "return_date": "2016-01-22"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-21",
+      "return_date": "2016-01-25"
+    },
+    {
+      "best_price": 528.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-21",
+      "return_date": "2016-01-26"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-21",
+      "return_date": "2016-01-27"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-21",
+      "return_date": "2016-01-29"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-21",
+      "return_date": "2016-02-02"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-21",
+      "return_date": "2016-02-03"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-23",
+      "return_date": "2016-01-25"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-23",
+      "return_date": "2016-01-26"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-23",
+      "return_date": "2016-01-27"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-23",
+      "return_date": "2016-01-29"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-23",
+      "return_date": "2016-02-02"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-23",
+      "return_date": "2016-02-03"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-25",
+      "return_date": "2016-01-26"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-25",
+      "return_date": "2016-01-27"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-25",
+      "return_date": "2016-01-29"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-25",
+      "return_date": "2016-02-02"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-25",
+      "return_date": "2016-02-03"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-25",
+      "return_date": "2016-02-08"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-25",
+      "return_date": "2016-02-09"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-26",
+      "return_date": "2016-01-27"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-26",
+      "return_date": "2016-01-29"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-26",
+      "return_date": "2016-02-02"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-26",
+      "return_date": "2016-02-03"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-26",
+      "return_date": "2016-02-08"
+    },
+    {
+      "best_price": 582.695068359375,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-26",
+      "return_date": "2016-02-09"
+    },
+    {
+      "best_price": 582.695068359375,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-26",
+      "return_date": "2016-02-10"
+    },
+    {
+      "best_price": 582.695068359375,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-27",
+      "return_date": "2016-01-29"
+    },
+    {
+      "best_price": 582.695068359375,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-27",
+      "return_date": "2016-02-02"
+    },
+    {
+      "best_price": 582.695068359375,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-27",
+      "return_date": "2016-02-03"
+    },
+    {
+      "best_price": 551.0499267578125,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-01-28",
+      "return_date": "2016-02-03"
+    },
+    {
+      "best_price": 551.0499267578125,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-03",
+      "return_date": "2016-02-09"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-03",
+      "return_date": "2016-02-15"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-03",
+      "return_date": "2016-02-16"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-03",
+      "return_date": "2016-02-17"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-03",
+      "return_date": "2016-02-18"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-04",
+      "return_date": "2016-02-08"
+    },
+    {
+      "best_price": 521.222412109375,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-04",
+      "return_date": "2016-02-09"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-04",
+      "return_date": "2016-02-10"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-04",
+      "return_date": "2016-02-11"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-04",
+      "return_date": "2016-02-12"
+    },
+    {
+      "best_price": 528.2999877929688,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-04",
+      "return_date": "2016-02-15"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-04",
+      "return_date": "2016-02-16"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-04",
+      "return_date": "2016-02-17"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-04",
+      "return_date": "2016-02-18"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-05",
+      "return_date": "2016-02-08"
+    },
+    {
+      "best_price": 528.2999877929688,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-05",
+      "return_date": "2016-02-09"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-05",
+      "return_date": "2016-02-10"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-05",
+      "return_date": "2016-02-11"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-05",
+      "return_date": "2016-02-12"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-05",
+      "return_date": "2016-02-15"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-05",
+      "return_date": "2016-02-16"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-05",
+      "return_date": "2016-02-17"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-05",
+      "return_date": "2016-02-18"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-06",
+      "return_date": "2016-02-08"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-06",
+      "return_date": "2016-02-09"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-06",
+      "return_date": "2016-02-10"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-06",
+      "return_date": "2016-02-11"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-06",
+      "return_date": "2016-02-12"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-06",
+      "return_date": "2016-02-15"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-06",
+      "return_date": "2016-02-16"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-06",
+      "return_date": "2016-02-17"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-06",
+      "return_date": "2016-02-18"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-07",
+      "return_date": "2016-02-08"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-07",
+      "return_date": "2016-02-09"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-07",
+      "return_date": "2016-02-10"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-07",
+      "return_date": "2016-02-11"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-07",
+      "return_date": "2016-02-12"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-07",
+      "return_date": "2016-02-15"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-07",
+      "return_date": "2016-02-16"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-07",
+      "return_date": "2016-02-17"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-07",
+      "return_date": "2016-02-18"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-09",
+      "return_date": "2016-02-10"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-09",
+      "return_date": "2016-02-11"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-09",
+      "return_date": "2016-02-12"
+    },
+    {
+      "best_price": 528.2999877929688,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-09",
+      "return_date": "2016-02-15"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-09",
+      "return_date": "2016-02-16"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-09",
+      "return_date": "2016-02-17"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-09",
+      "return_date": "2016-02-18"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-09",
+      "return_date": "2016-02-24"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-16",
+      "return_date": "2016-02-17"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-16",
+      "return_date": "2016-02-18"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-16",
+      "return_date": "2016-02-24"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-16",
+      "return_date": "2016-02-26"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-16",
+      "return_date": "2016-03-01"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-16",
+      "return_date": "2016-03-02"
+    },
+    {
+      "best_price": 528.2999877929688,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-18",
+      "return_date": "2016-02-24"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-18",
+      "return_date": "2016-02-26"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-18",
+      "return_date": "2016-02-28"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-18",
+      "return_date": "2016-03-01"
+    },
+    {
+      "best_price": 528.2999877929688,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-18",
+      "return_date": "2016-03-02"
+    },
+    {
+      "best_price": 528.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-21",
+      "return_date": "2016-02-26"
+    },
+    {
+      "best_price": 528.2999877929688,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-21",
+      "return_date": "2016-02-28"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-21",
+      "return_date": "2016-03-01"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-21",
+      "return_date": "2016-03-02"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-22",
+      "return_date": "2016-02-26"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-22",
+      "return_date": "2016-02-28"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-22",
+      "return_date": "2016-03-01"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-22",
+      "return_date": "2016-03-02"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-23",
+      "return_date": "2016-02-26"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-23",
+      "return_date": "2016-02-28"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-23",
+      "return_date": "2016-03-01"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-02-23",
+      "return_date": "2016-03-02"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-07",
+      "return_date": "2016-03-08"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-07",
+      "return_date": "2016-03-09"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-07",
+      "return_date": "2016-03-10"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-07",
+      "return_date": "2016-03-15"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-07",
+      "return_date": "2016-03-16"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-07",
+      "return_date": "2016-03-17"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-08",
+      "return_date": "2016-03-10"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-08",
+      "return_date": "2016-03-15"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-08",
+      "return_date": "2016-03-17"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-08",
+      "return_date": "2016-03-23"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-14",
+      "return_date": "2016-03-15"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-14",
+      "return_date": "2016-03-16"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-14",
+      "return_date": "2016-03-23"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-14",
+      "return_date": "2016-03-24"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-17",
+      "return_date": "2016-03-23"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-17",
+      "return_date": "2016-03-30"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-18",
+      "return_date": "2016-03-23"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-18",
+      "return_date": "2016-03-30"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-18",
+      "return_date": "2016-03-31"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-18",
+      "return_date": "2016-04-02"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-21",
+      "return_date": "2016-03-23"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-21",
+      "return_date": "2016-03-30"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-21",
+      "return_date": "2016-04-02"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-21",
+      "return_date": "2016-04-03"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-21",
+      "return_date": "2016-04-04"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-21",
+      "return_date": "2016-04-05"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-21",
+      "return_date": "2016-04-06"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-21",
+      "return_date": "2016-04-07"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-21",
+      "return_date": "2016-04-08"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-24",
+      "return_date": "2016-03-30"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-24",
+      "return_date": "2016-03-31"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-24",
+      "return_date": "2016-04-02"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-24",
+      "return_date": "2016-04-03"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-24",
+      "return_date": "2016-04-04"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-24",
+      "return_date": "2016-04-05"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-24",
+      "return_date": "2016-04-06"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-24",
+      "return_date": "2016-04-07"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-24",
+      "return_date": "2016-04-08"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-25",
+      "return_date": "2016-03-30"
+    },
+    {
+      "best_price": 528.2999877929688,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-25",
+      "return_date": "2016-03-31"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-25",
+      "return_date": "2016-04-02"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-25",
+      "return_date": "2016-04-03"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-25",
+      "return_date": "2016-04-04"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-25",
+      "return_date": "2016-04-05"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-25",
+      "return_date": "2016-04-06"
+    },
+    {
+      "best_price": 528.2999877929688,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-25",
+      "return_date": "2016-04-07"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-25",
+      "return_date": "2016-04-08"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-25",
+      "return_date": "2016-04-09"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-26",
+      "return_date": "2016-03-30"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-26",
+      "return_date": "2016-03-31"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-26",
+      "return_date": "2016-04-02"
+    },
+    {
+      "best_price": 521.222412109375,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-26",
+      "return_date": "2016-04-03"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-26",
+      "return_date": "2016-04-04"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-26",
+      "return_date": "2016-04-05"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-26",
+      "return_date": "2016-04-06"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-26",
+      "return_date": "2016-04-07"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-26",
+      "return_date": "2016-04-08"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-26",
+      "return_date": "2016-04-09"
+    },
+    {
+      "best_price": 528.2999877929688,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-28",
+      "return_date": "2016-03-31"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-28",
+      "return_date": "2016-04-02"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-28",
+      "return_date": "2016-04-03"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-28",
+      "return_date": "2016-04-04"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-28",
+      "return_date": "2016-04-05"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-28",
+      "return_date": "2016-04-06"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-28",
+      "return_date": "2016-04-11"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-28",
+      "return_date": "2016-04-12"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-29",
+      "return_date": "2016-03-31"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-29",
+      "return_date": "2016-04-02"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-29",
+      "return_date": "2016-04-03"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-29",
+      "return_date": "2016-04-04"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-29",
+      "return_date": "2016-04-05"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-29",
+      "return_date": "2016-04-06"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-29",
+      "return_date": "2016-04-11"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-03-31",
+      "return_date": "2016-04-12"
+    },
+    {
+      "best_price": 528.2999877929688,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-04-02",
+      "return_date": "2016-04-05"
+    },
+    {
+      "best_price": 528.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-04-02",
+      "return_date": "2016-04-11"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-04-04",
+      "return_date": "2016-04-12"
+    },
+    {
+      "best_price": 528.2999877929688,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-04-08",
+      "return_date": "2016-04-14"
+    },
+    {
+      "best_price": 558.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-04-08",
+      "return_date": "2016-04-18"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-04-11",
+      "return_date": "2016-04-20"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-04-11",
+      "return_date": "2016-04-21"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-04-11",
+      "return_date": "2016-04-22"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-04-11",
+      "return_date": "2016-04-25"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-04-11",
+      "return_date": "2016-04-26"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-04-12",
+      "return_date": "2016-04-18"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-04-12",
+      "return_date": "2016-04-20"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-04-12",
+      "return_date": "2016-04-21"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-04-12",
+      "return_date": "2016-04-22"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-04-12",
+      "return_date": "2016-04-25"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-04-12",
+      "return_date": "2016-04-26"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-04-13",
+      "return_date": "2016-04-18"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-04-13",
+      "return_date": "2016-04-20"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-04-13",
+      "return_date": "2016-04-21"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-04-13",
+      "return_date": "2016-04-22"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-04-13",
+      "return_date": "2016-04-25"
+    },
+    {
+      "best_price": 558.5,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-04-13",
+      "return_date": "2016-04-26"
+    },
+    {
+      "best_price": 521.222412109375,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-04-20",
+      "return_date": "2016-04-26"
+    },
+    {
+      "best_price": 579.2999877929688,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-04-22",
+      "return_date": "2016-05-03"
+    },
+    {
+      "best_price": 579.2999877929688,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-04-23",
+      "return_date": "2016-05-03"
+    },
+    {
+      "best_price": 528.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-04-26",
+      "return_date": "2016-04-29"
+    },
+    {
+      "best_price": 579.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-04-27",
+      "return_date": "2016-05-02"
+    },
+    {
+      "best_price": 579.4000244140625,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-04-27",
+      "return_date": "2016-05-03"
+    },
+    {
+      "best_price": 579.2999877929688,
+      "carriers": [
+        "FI"
+      ],
+      "departure_date": "2016-04-28",
+      "return_date": "2016-05-03"
+    }
+  ]
+}
