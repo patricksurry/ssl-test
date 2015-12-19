@@ -1,4 +1,7 @@
 function insertCalendarWidget(selector, host, options) {
+    var o = splitAirport(options.origin),
+        d = splitAirport(options.destination);
+
     $(selector).html('<div class="trip-selector">\
       <div class="trip-selector-dates"><!--\
         --><div class="trip-selector-dates-column">\
@@ -24,7 +27,7 @@ function insertCalendarWidget(selector, host, options) {
     </div>');
 
     $(selector + ' .trip-selector-watch-button a')
-        .attr('href', deepLink(options.origin, options.destination));
+        .attr('href', deepLink(o, d));
 
     $.ajax({
         url: host + '/datesummary?' + $.param(options),
@@ -38,23 +41,32 @@ function insertCalendarWidget(selector, host, options) {
             insertCalendarSelector(
                 d3.select(selector + ' .trip-selector'),
                 trips,
-                function(dep, ret) { return deepLink(options.origin, options.destination, dep, ret); }
+                function(dep, ret) { return deepLink(o, d, dep, ret); }
             );
         }
     })
 }
 
+function splitAirport(a) {
+    var parts = a.split('/');
+
+    if (parts.length == 1) {
+        parts = ['airport', parts[0]];
+    }
+    return {type: parts[0], iata: parts[1]};
+}
 
 // Cupertino deep links doc
 // https://docs.google.com/document/d/1T0tkp9Cz7EW6IOMSWSt_CRPQL-96vzz6cebV0540kEU/edit#heading=h.xl3hpxpxyba4
 function deepLink(origin, destination, departure_date, return_date, tab) {
     var ymdFormat = d3.time.format.utc('%Y-%m-%d'),
         base = 'route';
+
         params = {
-            originType: 'airport', //TODO
-            originID: origin,
-            destinationType: 'airport', //TODO
-            destinationID: destination
+            originType: origin.type,
+            originID: origin.iata,
+            destinationType: destination.type,
+            destinationID: destination.iata
         };
 
     if (departure_date && return_date) {
@@ -163,14 +175,15 @@ function showTrips(d3parent, trips, urlFn) {
     //   if on, mark selected, highlight intermediate
     //   else, unmark selected, intermediate
 
-    var nestedTrips = d3.nest()
-            .key(function(t) { return t.departure_date; })
-            .sortKeys(function (a, b) { return +a - +b; })
+    var ymdFormat = d3.time.format.utc('%Y-%m-%d'),
+        humanFormat = d3.time.format.utc('%a, %b %e, %Y'),
+        nestedTrips = d3.nest()
+            .key(function(t) { return ymdFormat(t.departure_date); })
+            .sortKeys(d3.ascending)
             .entries(trips),
         departureDates = nestedTrips.map(function(d) { return d.values[0].departure_date; }),
-        daydivs = d3parent.selectAll('.trip-selector-body .trip-selector-column'),
-        ymdFormat = d3.time.format.utc('%Y-%m-%d'),
-        humanFormat = d3.time.format.utc('%a, %b %e, %Y');
+        daydivs = d3parent.selectAll('.trip-selector-body .trip-selector-column');
+
 
     function addClickEvents(dates, handler) {
         var timestamps = dates.map(function(d) { return d.getTime(); });
