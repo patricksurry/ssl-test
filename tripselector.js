@@ -1,6 +1,6 @@
 function insertCalendarWidget(selector, host, options) {
-    var o = splitAirport(options.origin),
-        d = splitAirport(options.destination);
+    var origin = splitAirport(options.origin),
+        destination = splitAirport(options.destination);
 
     $(selector).html('<div class="trip-selector">\
       <div class="trip-selector-dates"><!--\
@@ -27,7 +27,7 @@ function insertCalendarWidget(selector, host, options) {
     </div>');
 
     $(selector + ' .trip-selector-watch-button a')
-        .attr('href', deepLink(o, d));
+        .attr('href', deepLink(origin, destination));
 
     $.ajax({
         url: host + '/datesummary?' + $.param(options),
@@ -41,7 +41,7 @@ function insertCalendarWidget(selector, host, options) {
             insertCalendarSelector(
                 d3.select(selector + ' .trip-selector'),
                 trips,
-                function(dep, ret) { return deepLink(o, d, dep, ret); }
+                function(dep, ret) { return deepLink(origin, destination, dep, ret); }
             );
         }
     })
